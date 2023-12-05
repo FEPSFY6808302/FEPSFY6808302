@@ -140,7 +140,7 @@ A partitioning algorithm is used where each robot will receive data from its nei
   var slideImages = ["slide1.jpg", "slide2.jpg", "slide3.jpg", "slide4.jpg", "slide5.jpg"];
   var currentslide = 0;
   function showslide() {
-   document.getElementById('slide').src = slideImages[currentslides];
+   document.getElementById('slide').src = slideImages[currentslide];
   }
   function nextSlide() {
    currentslide = (currentslide + 1) % slideImages.length;
